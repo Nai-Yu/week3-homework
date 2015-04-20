@@ -1,0 +1,287 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+margin: 0;
+text-align: center;
+}
+
+a:hover {
+	color: #0099cc;
+	font-weight: bold;
+
+}
+
+a{text-decoration: none;}
+
+.container {
+margin: 0 auto;
+width: 1150px;
+height: 1300px;
+text-align: left;
+}
+
+.background{
+	position: relative;
+	width: 1150px;
+	height: 1300px;
+	background:url('../images/bg_html.jpg');
+}
+
+.header{
+	width: 1150px;
+	height: 150px;
+}
+
+.logo{
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+
+.fb{
+	position: absolute;
+	top: 30px;
+	right: 100px;
+}
+
+.select{
+	float: right;
+	font-size: 20px;
+	color:black;
+	font-family: arial;
+	margin-top: 90px;
+	margin-right: 100;
+}
+
+.space{
+	margin-left: 30px;
+}
+
+.ad{
+	margin: 0 auto;
+	width: 950px;
+	height: 415px;
+	background: black;
+}
+
+.ad_pic{
+	float:left;
+}
+
+.ad_intro_title{
+	float:left;
+	color:#0099cc;
+	font-size: 43px;
+	font-family: arial;
+	margin-top: 30px;
+	margin-left: 40px; 
+}
+
+.ad_intro{
+	float:left;
+	color:white;
+	font-size: 18px;
+	line-height: 28px;
+	font-family: arial;
+	margin-top: 30px;
+	margin-left: 40px; 
+}
+
+.read_more{
+	float:left;
+	background: #696969;
+	width: 130px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.center{
+	margin-top:15px;
+	margin-left: 10px;
+	color:white;
+	font-size: 18px;
+	font-family: arial;
+}
+
+.middle{
+	margin: 0 auto;
+	width: 950px;
+	height: 130px;
+	background: white;
+	margin-top: 30px;
+}
+
+.content{
+	color:black;
+	font-size: 18px;
+	font-family: arial;
+	padding-top: 25px;
+	margin-left: 28px;
+	line-height: 28px;
+}
+
+.word{
+	color:#0099cc;
+}
+
+.middle2{
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+	height: 420px;
+	background: white;
+	margin-top: 30px;
+}
+
+.m2_title{
+	color:black;
+	font-size: 30px;
+	font-family: arial;
+	padding-top: 25px;
+	margin-left: 28px;
+}
+
+.page1{
+	width: 615px;
+	height: 140px;
+	margin-top: 10px;
+	margin-left: 28px;
+}
+
+.img1{
+	float: left;
+}
+
+.page1_intro{
+	float: left;
+	color:black;
+	font-size: 16px;
+	font-family: arial;
+	line-height: 24px;
+	margin-left: 28px;
+}
+
+.weight{
+	font-weight: bold;
+}
+
+.page1-1{
+	width: 615px;
+	height: 140px;
+	margin-top: 30px;
+	margin-left: 28px;
+}
+
+.service_list{
+	position: absolute;
+	width: 280px;
+	height: 200px;
+	right: 0px;
+	top: 0px;
+}
+
+.list_title{
+	color:black;
+	font-size: 30px;
+	font-family: arial;
+	padding-top: 25px;
+}
+
+.list_content{
+	color:black;
+	font-size: 16px;
+	font-family: arial;
+	margin-top: 10px;
+	line-height: 24px;
+}
+
+.findus{
+	position: absolute;
+	width: 280px;
+	height: 200px;
+	right: 0px;
+	top: 205px;
+}
+
+.enter{
+	width: 270px;
+	height: 50px;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.pos{
+	color:black;
+	font-size: 16px;
+	font-family: arial;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.search{
+	float:left;
+	background: #ccccff;
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.search_press{
+	margin-top:15px;
+	margin-left: 10px;
+	color:#0099cc;
+	font-size: 16px;
+	font-family: arial;
+}
+
+.footer{
+	margin: 0 auto;
+	width: 950px;
+	height: 100px;
+	margin-top: 40px;
+}
