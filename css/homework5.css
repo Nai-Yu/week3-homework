@@ -48,20 +48,51 @@ text-align: center;
 }
 
 
-a{text-decoration: none;}
-
-.container {
-margin: 0 auto;
-width: 1150px;
-height: 1300px;
-text-align: left;
+a:hover {
+	color: #0099cc;
+	font-weight: bold;
 }
 
-.background{
+a:link{
+	color:black;
+}
+
+a{text-decoration: none;}
+
+.wrap {
 	position: relative;
+	margin: 0 auto;
 	width: 1150px;
-	height: 1300px;
+	text-align: left;
 	background:url('../images/bg_html.jpg');
+}
+
+.topdecoration{
+  	float: left;
+	background: black;
+    width: 1150px;
+    height: 5px;
+}
+
+.red{
+	float: left;
+	background: red;
+  	width: 50px;
+  	height: 5px;
+}
+
+.yellow{
+	float: left;
+	background-color: yellow;
+    width: 50px;
+    height: 5px;
+}
+
+.blue{
+	float: left;
+	background: blue;
+  	width: 50px;
+  	height: 5px;
 }
 
 .header{
@@ -87,17 +118,12 @@ text-align: left;
 	font-size: 20px;
 	font-family: arial;
 	margin-top: 90px;
-	margin-right: 100;
+	margin-right: 100px;
 	color:gray;
 }
 
 .space{
 	margin-left: 30px;
-}
-
-a:hover {
-	color: #0099cc;
-	font-weight: bold;
 }
 
 .ad{
@@ -168,8 +194,9 @@ a:hover {
 	color:#0099cc;
 }
 
+
+
 .middle2{
-	position: relative;
 	margin: 0 auto;
 	width: 950px;
 	height: 420px;
@@ -183,13 +210,30 @@ a:hover {
 	font-family: arial;
 	padding-top: 25px;
 	margin-left: 28px;
+	margin-bottom: 10px;
 }
 
-.page1{
+.word1{
+	float: left;
+}
+
+.word2{
+	float: left;
+	margin-left: 475px;
+}
+
+.pages{
+	float: left;
+	width: 615px;
+	margin-left: 28px;
+	margin-top: 10px;
+}
+
+.page{
+	float: left;
+	margin-bottom: 30px;
 	width: 615px;
 	height: 140px;
-	margin-top: 10px;
-	margin-left: 28px;
 }
 
 .img1{
@@ -209,51 +253,38 @@ a:hover {
 	font-weight: bold;
 }
 
-.page1-1{
-	width: 615px;
-	height: 140px;
-	margin-top: 30px;
-	margin-left: 28px;
+.right{
+	float: left;
+	width:267px;
+	height: 420px;
+	margin-left: 40px;
+	margin-top: 10px;
 }
 
 .service_list{
-	position: absolute;
-	width: 280px;
-	height: 200px;
-	right: 0px;
-	top: 0px;
-}
+	width: 267px;
+	height: 170px;
+	line-height: 14px;
 
-.list_title{
-	color:black;
-	font-size: 30px;
-	font-family: arial;
-	padding-top: 25px;
-}
-
-.list_content{
-	color:black;
-	font-size: 16px;
-	font-family: arial;
-	margin-top: 10px;
-	line-height: 24px;
 }
 
 .findus{
-	position: absolute;
-	width: 280px;
-	height: 200px;
-	right: 0px;
-	top: 205px;
+	float: left;
+	width: 267px;
+	height: 170px;
+	margin-top: 80px;
+}
+
+.word3{
+	color:black;
+	font-size: 30px;
+	font-family: arial;
 }
 
 .enter{
 	width: 270px;
 	height: 50px;
 	margin-top: 20px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 }
 
 .pos{
@@ -270,12 +301,9 @@ a:hover {
 	width: 100px;
 	height: 40px;
 	margin-top: 10px;
-}
-
-.search_press{
-	margin-top:15px;
-	margin-left: 10px;
-	color:#0099cc;
+	text-align: center;
+    line-height: 45px;
+    color:#0099cc;
 	font-size: 16px;
 	font-family: arial;
 }
