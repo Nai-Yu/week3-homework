@@ -47,14 +47,9 @@ margin: 0;
 text-align: center;
 }
 
-
 a:hover {
 	color: #0099cc;
 	font-weight: bold;
-}
-
-a:link{
-	color:black;
 }
 
 a{text-decoration: none;}
